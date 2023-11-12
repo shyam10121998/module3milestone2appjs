@@ -49,10 +49,18 @@
       <option value="air_pollution">Air Quality</option>
       <option value="uvi">UV Index</option>
     </select>
-    <button onclick="getData()">Get Data</button>
+    <button onclick="myFunction()">Get Data</button>
   </div>
+
   <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
   <script src="app.js"></script>
+  <script>
+    function myFunction() {
+
+      //document.getElementById("myText").value = "Johnny Bravo";
+      fetchWeatherData( document.getElementById("locationInput").value)
+    }
+    </script>
 
 </body>
 </html>

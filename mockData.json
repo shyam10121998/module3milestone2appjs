@@ -1,0 +1,16 @@
+{
+    "weatherData": {
+      "location": "New York",
+      "temperature": "21°C",
+      "description": "Partly Cloudy"
+    },
+    "airQualityData": {
+      "location": "New York",
+      "airQualityIndex": 45
+    },
+    "uvIndexData": {
+      "location": "New York",
+      "uvIndex": 4.5
+    }
+  }
+  
