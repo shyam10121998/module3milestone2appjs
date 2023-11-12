@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>EcoTrail Explorer</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+</head>
+<body>
+  <div id="mapid"></div>
+  <div class="user-inputs">
+    <input type="text" id="locationInput" placeholder="Enter Location">
+    <select id="dataTypeSelect">
+      <option value="weather">Weather</option>
+      <option value="air_pollution">Air Quality</option>
+      <option value="uvi">UV Index</option>
+    </select>
+    <button onclick="getData()">Get Data</button>
+  </div>
+
+</body>
+</html>
